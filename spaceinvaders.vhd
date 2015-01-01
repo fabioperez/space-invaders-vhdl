@@ -9,15 +9,15 @@ use lib.io.all;
 entity spaceinvaders is
     generic
     (
-        rx          : integer := 160;             -- resolução horizontal
-        ry          : integer := 120;             -- resolução vertical
-        cpu_num     : integer := ALIENS_PER_LINE; -- aliens por linha (configurar em io.vhd)
-        cpu_lines   : integer := ALIEN_LINES;     -- linhas de aliens (configurar em io.vhd)
+        rx          : integer := 160;             -- H resolution
+        ry          : integer := 120;             -- W resolution
+        cpu_num     : integer := ALIENS_PER_LINE; -- aliens per line (set in io.vhd)
+        cpu_lines   : integer := ALIEN_LINES;     -- number of lines (set in io.vhd)
         py          : integer := 110;             -- 
-        alien_w     : integer := 11;              -- largura do inimigo
-        alien_h     : integer := 8;               -- altura do inimigo
-        player_w    : integer := 13;              -- largura do player
-        player_h    : integer := 6                -- altura do player
+        alien_w     : integer := 11;              -- enemy width
+        alien_h     : integer := 8;               -- enemy height
+        player_w    : integer := 13;              -- player width
+        player_h    : integer := 6                -- player height
     );
     port
     (

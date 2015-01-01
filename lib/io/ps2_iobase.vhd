@@ -2,7 +2,7 @@
 -- Title      : MC613
 -- Project    : PS2 Basic Protocol
 -- Details    : www.ic.unicamp.br/~corte/mc613/
---							www.computer-engineering.org/ps2protocol/
+--		www.computer-engineering.org/ps2protocol/
 -------------------------------------------------------------------------------
 -- File       : ps2_base.vhd
 -- Author     : Thiago Borges Abdnur

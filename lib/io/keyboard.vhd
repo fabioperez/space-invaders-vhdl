@@ -14,8 +14,8 @@ ARCHITECTURE a OF keyboard IS
 	SIGNAL INCNT					: std_logic_vector(3 downto 0);
 	SIGNAL SHIFTIN 					: std_logic_vector(8 downto 0);
 	SIGNAL READ_CHAR 				: std_logic;
-	SIGNAL INFLAG, ready_set		: std_logic;
-	SIGNAL keyboard_clk_filtered 	: std_logic;
+	SIGNAL INFLAG, ready_set	          	: std_logic;
+        SIGNAL keyboard_clk_filtered 	                : std_logic;
 	SIGNAL filter 					: std_logic_vector(7 downto 0);
 BEGIN
 
